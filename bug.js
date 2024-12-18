@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Web API to fetch data from an external source, especially when handling large responses. The issue is that the response data might not be completely downloaded before the application tries to process it, resulting in incomplete or incorrect data. This often leads to unexpected behavior and crashes.
